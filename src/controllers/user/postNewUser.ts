@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { User } from "../../entities/EUser";
 import { IUsercreate } from "../../interface/IUser";
+import verifyUserRole from "../../auth/verifyUserRole";
 
 async function registerNewUser(req : Request, res: Response){
   try {
