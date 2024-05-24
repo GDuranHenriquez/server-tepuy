@@ -1,0 +1,10 @@
+# Ignorar archivos generados por el sistema operativo macOS
+.DS_Store
+
+# Ignorar archivos generados por el sistema operativo Windows
+Thumbs.db
+
+# Ignorar el directorio node_modules generado por Node.js
+node_modules/
+
+*.env*
